@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(60deg, #07192c 0%, #000000 100%);
+}
+
+main{
+    flex-grow: 1;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+@media all and (max-width: 767px)
+{
+    .tiempo{
+        font-size: 50px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .tempo{
+        margin-top: 100px;
+    }
+    input{
+        margin-top: 20px;
+    }
+    #establecer{
+        margin-top: 20px;
+    }
+    #temporizador{
+        font-size: 50px;
+        color: white;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width:991px)
+{
+    .tiempo{
+        font-size: 100px;
+    }
+    .btn{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .tempo{
+        margin-top: 300px;
+    }
+    #temporizador{
+        font-size: 50px;
+        color: white;
+    }
+    #establecer{
+        margin-top: 20px;
+    }
+    input{
+        margin-top: 40px;
+    }
+}
+
+@media all and (min-width:992px)
+{
+.tempo{
+     margin-top: 300px;
+    }
+.tiempo{
+    font-size: 100px;
+}
+.btn{
+    font-size: 30px;
+}
+.agregar{
+    margin-top: 200px;
+}
+#establecer{
+    margin-top: 20px;
+}
+#temporizador{
+    font-size: 50px;
+    color: white;
+}
+}
