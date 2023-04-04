@@ -21,9 +21,12 @@
 </head>
 <body>
     <main class="container">
+      <section>
         <div class="tempo text-center">
+          <h2 class="text-light">Temporizador: Ingrese todos los valores incluidos los 0</h2>
           <p id="temporizador">00:00:00</p>
             <button class="btn btn-primary" id="iniciar">Iniciar</button>
+            <button class="btn btn-warning" id="parar">Parar</button>
             <button class="btn btn-danger" id="reiniciar">Reiniciar</button>
         </div>
         <div class="text-center agregar">
@@ -31,8 +34,9 @@
             <input type="number" id="ingresarhoras" placeholder="Ingrese las horas">
             <input type="number" id="ingresarminutos" placeholder="Ingrese los minutos">
             <input type="number" id="ingresarsegundos" placeholder="Ingrese los segundos">
-            <button type="button" class="btn btn-info" id="establecer">Poner tiempo</button>
           </form>
+          <button type="button" class="btn btn-info mb-5 mb-md-0" id="establecer">Poner tiempo</button>
+        </section>
     </main>
     <footer class="bg-black text-light py-3 text-center">
         <p>&copy; Todos los derechos reservados</p>

@@ -19,13 +19,20 @@ main{
         font-size: 50px;
     }
     .btn{
-        font-size: 10px;
+        font-size: 15px;
     }
     .tempo{
         margin-top: 100px;
     }
     input{
-        margin-top: 40px;
+        margin-top: 20px;
+    }
+    #establecer{
+        margin-top: 20px;
+    }
+    #temporizador{
+        font-size: 50px;
+        color: white;
     }
 }
 
@@ -36,9 +43,17 @@ main{
     }
     .btn{
         font-size: 30px;
+        margin-top: 20px;
     }
     .tempo{
         margin-top: 300px;
+    }
+    #temporizador{
+        font-size: 50px;
+        color: white;
+    }
+    #establecer{
+        margin-top: 20px;
     }
     input{
         margin-top: 40px;
@@ -58,6 +73,9 @@ main{
 }
 .agregar{
     margin-top: 200px;
+}
+#establecer{
+    margin-top: 20px;
 }
 #temporizador{
     font-size: 50px;
