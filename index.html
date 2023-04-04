@@ -22,11 +22,17 @@
 <body>
     <main class="container">
         <div class="tempo text-center">
-            <h3 class="text-light tiempo">00:00:00</h3>
-            <button class="btn btn-primary">Iniciar</button>
-            <button class="btn btn-warning">Pausar</button>
-            <button class="btn btn-danger">Reiniciar</button>
+          <p id="temporizador">00:00:00</p>
+            <button class="btn btn-primary" id="iniciar">Iniciar</button>
+            <button class="btn btn-danger" id="reiniciar">Reiniciar</button>
         </div>
+        <div class="text-center agregar">
+          <form>
+            <input type="number" id="ingresarhoras" placeholder="Ingrese las horas">
+            <input type="number" id="ingresarminutos" placeholder="Ingrese los minutos">
+            <input type="number" id="ingresarsegundos" placeholder="Ingrese los segundos">
+            <button type="button" class="btn btn-info" id="establecer">Poner tiempo</button>
+          </form>
     </main>
     <footer class="bg-black text-light py-3 text-center">
         <p>&copy; Todos los derechos reservados</p>

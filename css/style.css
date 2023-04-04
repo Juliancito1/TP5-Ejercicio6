@@ -11,17 +11,56 @@ main{
     font-family: 'Roboto Mono', monospace;
 }
 
-.tempo{
-    margin-top: 300px;
+
+
+@media all and (max-width: 767px)
+{
+    .tiempo{
+        font-size: 50px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    .tempo{
+        margin-top: 100px;
+    }
+    input{
+        margin-top: 40px;
+    }
 }
 
+@media all and (min-width: 768px) and (max-width:991px)
+{
+    .tiempo{
+        font-size: 100px;
+    }
+    .btn{
+        font-size: 30px;
+    }
+    .tempo{
+        margin-top: 300px;
+    }
+    input{
+        margin-top: 40px;
+    }
+}
 
 @media all and (min-width:992px)
 {
+.tempo{
+     margin-top: 300px;
+    }
 .tiempo{
     font-size: 100px;
 }
 .btn{
     font-size: 30px;
+}
+.agregar{
+    margin-top: 200px;
+}
+#temporizador{
+    font-size: 50px;
+    color: white;
 }
 }
